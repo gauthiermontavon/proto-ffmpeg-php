@@ -20,7 +20,7 @@
      <ftp server="${ftp.server}" userid="${ftp.user}"
        password="${ftp.pwd}" remoteDir="public_html" passive="yes" verbose="true">
         <fileset dir="${basedir}/../site">
-        <include name="*.php"/>
+        <include name="**"/>
         </fileset>
     </ftp>
  </target>
