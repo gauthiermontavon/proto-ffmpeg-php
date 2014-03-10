@@ -19,8 +19,9 @@
     <property name="ftp.pwd" value="${pwdftp}"/>
      <ftp server="${ftp.server}" userid="${ftp.user}"
        password="${ftp.pwd}" remoteDir="public_html" passive="yes" verbose="true">
-    
-        <fileset dir="${basedir}/../site" />
+        <fileset dir="${basedir}/../site">
+        <include name="*.php"/>
+        </fileset>
     </ftp>
  </target>
 </project>
