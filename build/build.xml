@@ -6,7 +6,7 @@
   <apply executable="php" failonerror="true">
    <arg value="-l" />
 
-   <fileset dir="${basedir}/../ws">
+   <fileset dir="${basedir}/../site">
     <include name="**/*.php" />
     <modified />
    </fileset>
