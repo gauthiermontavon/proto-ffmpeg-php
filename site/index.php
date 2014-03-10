@@ -7,4 +7,7 @@ $ffmpegInstance = new ffmpeg_movie('media_samples/cbw3.avi');
 echo "getDuration: " . $ffmpegInstance->getDuration();
 
 
+exec('ffmpeg -f image2 -r 1/5 -i media_samples/img%03d.png -vcodec libx264 media_samples/out.mp4');
+
+
 require("html_templates/footer.php"); ?> 
