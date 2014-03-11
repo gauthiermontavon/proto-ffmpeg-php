@@ -1,5 +1,5 @@
 <?php require("html_templates/header.php");
-echo 'Hello gomodev.org ! publish date : 11.03.2014 / 20:13';
+echo 'Hello gomodev.org ! publish date : 11.03.2014 / 20:30';
 
 //extension_loaded('ffmpeg') or die('Error in loading ffmpeg');
 
